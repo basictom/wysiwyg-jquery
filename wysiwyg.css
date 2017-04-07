@@ -1,18 +1,29 @@
 body {
   background-color: navajowhite;
 }
- article img {
-   max-width: 300px;
+article img {
+  width: 100%;
+  height: 300px;
+}
+ article .image {
+   /*max-width: 300px;*/
+   width: 50%;
    /*height:50px;*/
    margin: 0 auto;
+   text-align:center;
  }
 .card {
-  width: 500px;
+  width: 75%;
   /*text-align:center;*/
   background-color: tomato;
+  margin: 10px auto;
+  /*padding: 20px;*/
 }
 #user-output {
-  max-width: 500px;
+  /*max-width: 500px;*/
+  /*margin: 0 auto;*/
+  /*margin: 20px auto;*/
+  /*text-align:center;*/
 }
 .yellow-border {
   border: 2px dotted red;
